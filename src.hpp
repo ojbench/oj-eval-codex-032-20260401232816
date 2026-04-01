@@ -69,7 +69,7 @@ public:
     }
 
     // Implicit conversion to int for arithmetic/bitwise usage on int elements
-    explicit operator int() const {
+    operator int() const {
         return int_val_;
     }
 
@@ -104,4 +104,3 @@ private:
 };
 
 #endif // PYLIST_H
-
